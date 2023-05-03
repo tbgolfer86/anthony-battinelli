@@ -1,33 +1,20 @@
-footer h2 {
-    color: #c1c9c4;
-}
-
-footer ul {
+.icons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
-footer ul li {
+.icons a {
     display: flex;
     justify-content: center;
-    width: 25%;
-    color: var(--bright);
-    font-size: 1rem;
     padding: 1%;
 }
 
-footer ul li a {
-    text-decoration: none;
-    color: var(--bright);
-}
-
-footer li a img {
-    max-width: 100%;
+.icons a img {
     max-height: 2rem;
 }
 
-footer li a img:hover {
+.icons a img:hover {
     cursor: pointer;
 }

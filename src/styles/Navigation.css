@@ -1,11 +1,12 @@
-header ul {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     background-color: var(--firey);
 }
 
-header ul li {
+.navbar a {
+    text-decoration: none;
     color: var(--bright);
     font-size: 1rem;
     font-weight: bold;
@@ -15,17 +16,12 @@ header ul li {
     white-space: nowrap;
 }
 
-ul li a {
-    text-decoration: none;
-    color:var(--bright);
-}
-
-li a:hover {
+.navbar a:hover {
     background-color: var(--firey);
     color: rgb(0 255 122);
 }
 
-header img {
+nav img {
     height: 20vh;
     width: 100%;
 }
