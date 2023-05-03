@@ -1,5 +1,14 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../images/aurora-1197753_1280.jpg);
+    height: 100px;
+}
+
 h1 {
-    color: #c1c9c4;
+    color: #DBF4A7;
     font-size: 2.25rem;
-    padding-left: 1%;
+    padding-left: 5%;
 }
