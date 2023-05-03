@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.191ade53.css",
-    "main.js": "/React-Portfolio/static/js/main.f4a0b913.js",
+    "main.css": "/React-Portfolio/static/css/main.503281b7.css",
+    "main.js": "/React-Portfolio/static/js/main.0ef0262b.js",
     "static/media/aurora-1197753_1280.jpg": "/React-Portfolio/static/media/aurora-1197753_1280.3c73c7da043b69846b1b.jpg",
-    "static/media/GitHub_Logo_White.png": "/React-Portfolio/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
-    "static/media/HackerRank1.png": "/React-Portfolio/static/media/HackerRank1.c4c3ce2fa9de3ca65f21.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.191ade53.css.map": "/React-Portfolio/static/css/main.191ade53.css.map",
-    "main.f4a0b913.js.map": "/React-Portfolio/static/js/main.f4a0b913.js.map"
+    "main.503281b7.css.map": "/React-Portfolio/static/css/main.503281b7.css.map",
+    "main.0ef0262b.js.map": "/React-Portfolio/static/js/main.0ef0262b.js.map"
   },
   "entrypoints": [
-    "static/css/main.191ade53.css",
-    "static/js/main.f4a0b913.js"
+    "static/css/main.503281b7.css",
+    "static/js/main.0ef0262b.js"
   ]
 }
