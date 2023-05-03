@@ -1,14 +1,51 @@
 import React from 'react';
 import '../styles/Navigation.css';
 
-function Navigation() {
+function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav>
-      <a href="#about-me">About Me</a>
-      <a href="#work">Work</a>
-      <a target="_blank" href="https://docs.google.com/document/d/1WKeuCcx_1n9wO6h4XkL0-0THvJLYb3gm5c9wr3qV4eU/edit?usp=sharing" rel="noreferrer">Resume</a>
-      <a href="#contact-me">Contact Me</a>
-    </nav>
+    <ul className="nav nav-tabs">
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          // This is a conditional (ternary) operator that checks to see if the current page is "About"
+          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+          About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#work"
+          onClick={() => handlePageChange('Work')}
+          // Check to see if the currentPage is `Work`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
+        >
+          Work
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >
+          Contact Me
+        </a>
+      </li>
+    </ul>
   );
 }
   
