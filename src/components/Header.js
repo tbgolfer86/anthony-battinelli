@@ -6,7 +6,7 @@ import Work from './pages/Work';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
-function Header() {
+export default function Header() {
   const [currentPage, setCurrentPage] = useState('Home');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
@@ -39,6 +39,4 @@ function Header() {
       </div>
     </div>
   );
-}
-
-export default Header;
+};

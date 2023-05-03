@@ -1,15 +1,16 @@
 import React from 'react';
 import '../../styles/About.css';
-import htmlLogo from '../../images/logos/html-logo.webp'
-import cssLogo from '../../images/logos/css-logo.webp'
-import javascriptLogo from '../../images/logos/javascript-logo.webp'
-import nodejsLogo from '../../images/logos/80-804068_javascript-node-js-logo-png.png'
-import npmLogo from '../../images/logos/npm-2009.png'
-import expressLogo from '../../images/logos/express-js-icon.png'
-import handlebarsLogo from '../../images/logos/handlebars-js.webp'
-import sqlLogo from '../../images/logos/sql-logo.png'
-import reactLogo from '../../images/logos/react-logo.png'
-import vscodeLogo from '../../images/logos/Visual_Studio_Code_1.35_icon.svg.png'
+
+import htmlLogo from '../../images/logos/html-logo.webp';
+import cssLogo from '../../images/logos/css-logo.webp';
+import javascriptLogo from '../../images/logos/javascript-logo.webp';
+import nodejsLogo from '../../images/logos/80-804068_javascript-node-js-logo-png.png';
+import npmLogo from '../../images/logos/npm-2009.png';
+import expressLogo from '../../images/logos/express-js-icon.png';
+import handlebarsLogo from '../../images/logos/handlebars-js.webp';
+import sqlLogo from '../../images/logos/sql-logo.png';
+import reactLogo from '../../images/logos/react-logo.png';
+import vscodeLogo from '../../images/logos/Visual_Studio_Code_1.35_icon.svg.png';
 
 export default function About() {
   return (
@@ -39,4 +40,4 @@ export default function About() {
         </div>        
     </div>
   );
-}
+};

@@ -6,4 +6,4 @@ export default function Resume() {
       <h2>Resume</h2>      
     </div>
   );
-}
+};
