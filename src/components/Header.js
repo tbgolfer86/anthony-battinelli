@@ -34,7 +34,7 @@ function Header() {
         <h1>Anthony Battinelli</h1>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
-      <div>
+      <div className='content'>
         {renderPage()}
       </div>
     </div>
