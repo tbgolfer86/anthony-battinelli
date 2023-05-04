@@ -10,15 +10,16 @@ header {
     height: 100px;
 }
 
-.content {
-    margin-top: 2%;
-    margin-inline: 5%;
-    margin-bottom: 2%;
-}
-
 h1 {
     color: #DBF4A7;
     font-size: 3vw;
     margin-inline: 2.5%;
     white-space: nowrap;
+}
+
+.content {
+    margin-top: 2%;
+    margin-inline: 5%;
+    margin-bottom: 2%;
+    min-height: 100vh;
 }
