@@ -31,8 +31,8 @@ export default function About() {
     <div>
       <h2>About Me</h2>
         <div>
-          <img id="avatar"/>
-          <p> I am a critical thinking full stack web developer with experience in front and back end design. My previous
+          <img className='animate__animated animate__fadeInRight' id="avatar"/>
+          <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back end design. My previous
                 work experience at an upscale country club as an assistant golf professional has taught me the importance of 
                 paying strong attention to detail and working in a diverse team environment. I have a passion for sports, music, 
                 pop culture, retail stock and options trading, and modern technology. I am confident in my ability to excel in a world 
@@ -40,18 +40,18 @@ export default function About() {
                 analytical, and organizational skills.
           </p>
         </div>
-        <div className="icons">
-          <img className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation1('')} src={htmlLogo} alt="HTML logo"/>
-          <img className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation2('')} src={cssLogo} alt="CSS logo"/>
-          <img className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation3('')} src={javascriptLogo} alt="Javascript logo"/>
-          <img className={animation4} onMouseEnter={() => setAnimation4('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation4('')} src={nodejsLogo} alt="Node.js logo"/>
-          <img className={animation5} onMouseEnter={() => setAnimation5('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation5('')} src={npmLogo} alt="Npm logo"/>
-          <img className={animation6} onMouseEnter={() => setAnimation6('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation6('')} src={expressLogo} alt="Express.js logo"/>
-          <img className={animation7} onMouseEnter={() => setAnimation7('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation7('')} src={handlebarsLogo} alt="Handlebars logo"/>
-          <img className={animation8} onMouseEnter={() => setAnimation8('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation8('')} src={reactLogo} alt="React logo"/>
-          <img className={animation9} onMouseEnter={() => setAnimation9('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation9('')} src={sqlLogo} alt="SQL logo"/>
-          <img className={animation10} onMouseEnter={() => setAnimation10('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation10('')} src={mongoDbLogo} alt="MongoDB logo"/>
-          <img className={animation11} onMouseEnter={() => setAnimation11('animate__animated animate__headShake animate__repeat-3')} onMouseLeave={() => setAnimation11('')} src={vscodeLogo} alt="VS Code logo"/>
+        <div className="icons animate__animated animate__fadeInLeft">
+          <img className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation1('')} src={htmlLogo} alt="HTML logo"/>
+          <img className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation2('')} src={cssLogo} alt="CSS logo"/>
+          <img className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation3('')} src={javascriptLogo} alt="Javascript logo"/>
+          <img className={animation4} onMouseEnter={() => setAnimation4('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation4('')} src={nodejsLogo} alt="Node.js logo"/>
+          <img className={animation5} onMouseEnter={() => setAnimation5('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation5('')} src={npmLogo} alt="Npm logo"/>
+          <img className={animation6} onMouseEnter={() => setAnimation6('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation6('')} src={expressLogo} alt="Express.js logo"/>
+          <img className={animation7} onMouseEnter={() => setAnimation7('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation7('')} src={handlebarsLogo} alt="Handlebars logo"/>
+          <img className={animation8} onMouseEnter={() => setAnimation8('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation8('')} src={reactLogo} alt="React logo"/>
+          <img className={animation9} onMouseEnter={() => setAnimation9('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation9('')} src={sqlLogo} alt="SQL logo"/>
+          <img className={animation10} onMouseEnter={() => setAnimation10('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation10('')} src={mongoDbLogo} alt="MongoDB logo"/>
+          <img className={animation11} onMouseEnter={() => setAnimation11('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation11('')} src={vscodeLogo} alt="VS Code logo"/>
         </div>        
     </div>
   );
