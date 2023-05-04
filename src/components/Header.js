@@ -32,7 +32,7 @@ export default function Header() {
   return (
     <div>
       <header>
-        <h1>Anthony Battinelli</h1>
+        <h1 className='animate__animated animate__fadeInLeft'>Anthony Battinelli</h1>
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       <div className='content'>

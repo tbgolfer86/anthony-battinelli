@@ -3,7 +3,7 @@ import '../styles/Navigation.css';
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs animate__animated animate__fadeInRight">
       <li className="nav-item">
         <a
           href="#about"

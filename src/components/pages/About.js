@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from "react";
 import '../../styles/About.css';
 
 import htmlLogo from '../../images/logos/html-logo.webp';
@@ -14,6 +15,18 @@ import vscodeLogo from '../../images/logos/Visual_Studio_Code_1.35_icon.svg.png'
 import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
 
 export default function About() {
+  const [animation1, setAnimation1] = useState('');
+  const [animation2, setAnimation2] = useState('');
+  const [animation3, setAnimation3] = useState('');
+  const [animation4, setAnimation4] = useState('');
+  const [animation5, setAnimation5] = useState('');
+  const [animation6, setAnimation6] = useState('');
+  const [animation7, setAnimation7] = useState('');
+  const [animation8, setAnimation8] = useState('');
+  const [animation9, setAnimation9] = useState('');
+  const [animation10, setAnimation10] = useState('');
+  const [animation11, setAnimation11] = useState('');
+
   return (
     <div>
       <h2>About Me</h2>
@@ -28,17 +41,17 @@ export default function About() {
           </p>
         </div>
         <div className="icons">
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={htmlLogo} alt="HTML logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={cssLogo} alt="CSS logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={javascriptLogo} alt="Javascript logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={nodejsLogo} alt="Node.js logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={npmLogo} alt="Npm logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={expressLogo} alt="Express.js logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={handlebarsLogo} alt="Handlebars logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={reactLogo} alt="React logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={sqlLogo} alt="SQL logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={mongoDbLogo} alt="MongoDB logo"/>
-          <img className='animate__animated animate__bounceIn animate__repeat-3' src={vscodeLogo} alt="VS Code logo"/>
+          <img className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation1('')} src={htmlLogo} alt="HTML logo"/>
+          <img className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation2('')} src={cssLogo} alt="CSS logo"/>
+          <img className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation3('')} src={javascriptLogo} alt="Javascript logo"/>
+          <img className={animation4} onMouseEnter={() => setAnimation4('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation4('')} src={nodejsLogo} alt="Node.js logo"/>
+          <img className={animation5} onMouseEnter={() => setAnimation5('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation5('')} src={npmLogo} alt="Npm logo"/>
+          <img className={animation6} onMouseEnter={() => setAnimation6('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation6('')} src={expressLogo} alt="Express.js logo"/>
+          <img className={animation7} onMouseEnter={() => setAnimation7('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation7('')} src={handlebarsLogo} alt="Handlebars logo"/>
+          <img className={animation8} onMouseEnter={() => setAnimation8('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation8('')} src={reactLogo} alt="React logo"/>
+          <img className={animation9} onMouseEnter={() => setAnimation9('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation9('')} src={sqlLogo} alt="SQL logo"/>
+          <img className={animation10} onMouseEnter={() => setAnimation10('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation10('')} src={mongoDbLogo} alt="MongoDB logo"/>
+          <img className={animation11} onMouseEnter={() => setAnimation11('animate__animated animate__headShake animate__infinite')} onMouseLeave={() => setAnimation11('')} src={vscodeLogo} alt="VS Code logo"/>
         </div>        
     </div>
   );
