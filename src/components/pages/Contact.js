@@ -79,7 +79,7 @@ export default function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="Enter a message..."
-          rows="5"
+          rows="7"
         />
         
         <button type="button" onClick={handleFormSubmit}>Submit</button>
