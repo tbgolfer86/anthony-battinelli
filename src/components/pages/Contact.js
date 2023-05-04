@@ -56,27 +56,32 @@ export default function Contact() {
     <div>
       <h2>Contact Me</h2>
       <form className="form">
-        <input
+        <textarea
           value={name}
           name="name"
           onChange={handleInputChange}
           type="name"
           placeholder="name"
+          rows="1"
         />
-        <input
+        <textarea
           value={email}
           name="email"
           onChange={handleInputChange}
           type="text"
           placeholder="email"
+          rows="1"
         />
-        <input
+        
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="Enter a message..."
+          rows="5"
         />
+        
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (
