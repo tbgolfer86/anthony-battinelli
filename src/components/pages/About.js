@@ -11,6 +11,7 @@ import handlebarsLogo from '../../images/logos/handlebars-js.webp';
 import sqlLogo from '../../images/logos/sql-logo.png';
 import reactLogo from '../../images/logos/react-logo.png';
 import vscodeLogo from '../../images/logos/Visual_Studio_Code_1.35_icon.svg.png';
+import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
 
 export default function About() {
   return (
@@ -34,8 +35,9 @@ export default function About() {
           <img src={npmLogo} alt="Npm logo"/>
           <img src={expressLogo} alt="Express.js logo"/>
           <img src={handlebarsLogo} alt="Handlebars logo"/>
-          <img src={sqlLogo} alt="SQL logo"/>
           <img src={reactLogo} alt="React logo"/>
+          <img src={sqlLogo} alt="SQL logo"/>
+          <img src={mongoDbLogo} alt="MongoDB logo"/>
           <img src={vscodeLogo} alt="VS Code logo"/>
         </div>        
     </div>
