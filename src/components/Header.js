@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {  } from 'react-animations';
 import '../styles/Header.css';
 import Navigation from './Navigation';
 import About from './pages/About';

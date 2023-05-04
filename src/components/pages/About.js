@@ -1,4 +1,5 @@
 import React from 'react';
+import {  } from 'react-animations';
 import '../../styles/About.css';
 
 import htmlLogo from '../../images/logos/html-logo.webp';

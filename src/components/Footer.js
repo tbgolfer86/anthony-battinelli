@@ -1,4 +1,5 @@
 import React from 'react';
+import {  } from 'react-animations';
 import '../styles/Footer.css';
 import gitHub from '../images/logos/github-mark-white.png';
 import linkedIn from '../images/logos/LI-In-Bug.png';

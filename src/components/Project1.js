@@ -1,4 +1,5 @@
 import React from 'react';
+import {  } from 'react-animations';
 import '../styles/Project.css';
 
 import gitHub from '../images/logos/github-mark-white.png';

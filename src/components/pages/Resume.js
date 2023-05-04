@@ -1,4 +1,5 @@
 import React from 'react';
+import {  } from 'react-animations';
 import '../../styles/Resume.css';
 
 export default function Resume() {

@@ -1,4 +1,5 @@
 import React from 'react';
+import {  } from 'react-animations';
 import '../styles/Navigation.css';
 
 export default function Navigation({ currentPage, handlePageChange }) {
