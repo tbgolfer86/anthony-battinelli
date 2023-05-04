@@ -13,15 +13,15 @@ import handlebarsLogo from '../images/logos/handlebars-js.webp';
 
 export default function Project5() {
   return (
-    <div class="card">
-      <div class="project-title github-link">
+    <div className="card">
+      <div className="project-title github-link">
         <h3>Scorecards</h3>
         <a target="_blank" href="https://github.com/sampaul10/scorecard-app" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
       </div>
-      <a class="screenshot-link5" target="_blank" href="https://sam-scorecard-app.herokuapp.com" rel="noreferrer">
-        <div class="card-summary">
+      <a className="screenshot-link5" target="_blank" href="https://sam-scorecard-app.herokuapp.com" rel="noreferrer">
+        <div className="card-summary">
           <p>An app that saves your hole-by-hole scores on the golf course.</p>
-          <div class="project-icons">
+          <div className="project-icons">
             <img src={htmlLogo} alt="HTML logo"/>
             <img src={cssLogo} alt="CSS logo"/>
             <img src={javascriptLogo} alt="Javascript logo"/>

@@ -14,15 +14,15 @@ import handlebarsLogo from '../images/logos/handlebars-js.webp';
 
 export default function Project4() {
   return (
-    <div class="card">
-      <div class="project-title github-link">
+    <div className="card">
+      <div className="project-title github-link">
         <h3>Tech Blog</h3>
         <a target="_blank" href="https://github.com/tbgolfer86/Tech-Blog" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
       </div>
-      <a class="screenshot-link4" target="_blank" href="https://uconn-tech-blog.herokuapp.com" rel="noreferrer">
-        <div class="card-summary">
+      <a className="screenshot-link4" target="_blank" href="https://uconn-tech-blog.herokuapp.com" rel="noreferrer">
+        <div className="card-summary">
           <p>A CMS-style blog site where devs can publish blog posts and comment on other devs' posts.</p>
-          <div class="project-icons">
+          <div className="project-icons">
             <img src={htmlLogo} alt="HTML logo"/>
             <img src={cssLogo} alt="CSS logo"/>
             <img src={javascriptLogo} alt="Javascript logo"/>

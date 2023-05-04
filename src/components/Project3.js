@@ -11,15 +11,15 @@ import expressLogo from '../images/logos/express-js-icon.png';
 
 export default function Project3() {
   return (
-    <div class="card">
-      <div class="project-title github-link">
+    <div className="card">
+      <div className="project-title github-link">
         <h3>Note Taker</h3>
         <a target="_blank" href="https://github.com/tbgolfer86/Note-Taker" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
       </div>
-      <a class="screenshot-link3" target="_blank" href="https://note-creator-uconn.herokuapp.com" rel="noreferrer">
-        <div class="card-summary">
+      <a className="screenshot-link3" target="_blank" href="https://note-creator-uconn.herokuapp.com" rel="noreferrer">
+        <div className="card-summary">
           <p>A note taker app that can be used to write and save notes.</p>
-          <div class="project-icons">
+          <div className="project-icons">
             <img src={htmlLogo} alt="HTML logo"/>
             <img src={cssLogo} alt="CSS logo"/>
             <img src={javascriptLogo} alt="Javascript logo"/>
