@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import {  } from 'react-animations';
 import '../../styles/Contact.css';
 
 // Here we import a helper function that will check if the email is valid

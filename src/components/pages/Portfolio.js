@@ -1,6 +1,6 @@
 import React from 'react';
-import {  } from 'react-animations';
 import '../../styles/Portfolio.css';
+
 import Project1 from '../Project1';
 import Project2 from '../Project2';
 import Project3 from '../Project3';

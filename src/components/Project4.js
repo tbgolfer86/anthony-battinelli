@@ -1,5 +1,4 @@
 import React from 'react';
-import {  } from 'react-animations';
 import '../styles/Project.css';
 
 import gitHub from '../images/logos/github-mark-white.png';
@@ -11,7 +10,6 @@ import sqlLogo from '../images/logos/sql-logo.png';
 import npmLogo from '../images/logos/npm-2009.png';
 import expressLogo from '../images/logos/express-js-icon.png';
 import handlebarsLogo from '../images/logos/handlebars-js.webp';
-
 
 export default function Project4() {
   return (
