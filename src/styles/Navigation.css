@@ -1,21 +1,19 @@
 .nav {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 1%;
+    justify-content: space-around;
 }
 
 .nav li {
     list-style: none;
+    margin-inline: 10px;
 }
 
 .nav a {
     text-decoration: none;
     color: #DBF4A7;
-    font-size: 18px;
+    font-size: 2.5vw;
     font-weight: bold;
-    margin-left: 15px;
-    margin-right: 15px;
     white-space: nowrap;
 }
 

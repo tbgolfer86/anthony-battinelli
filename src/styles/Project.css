@@ -4,6 +4,7 @@
     margin-bottom: 5%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 300px;
 }
 
 .project-title {
@@ -12,15 +13,17 @@
     align-items: center;
     justify-content: space-between;
     padding: 1%;
-    background-color: var(--card-header);
+    background-color: url(../images/cool-background.png);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    height: 55px;
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.75vw;
     padding: 2%;
     white-space: nowrap;
+    color: white;
 }
 
 .github-link img {
@@ -44,7 +47,6 @@ h3 {
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 200px;
-    width: 375px;
     background-image: url(../images/screenshots/Screenshot\ 2023-01-17\ at\ 8.17.17\ PM.png);
     background-size: cover;
     text-decoration: none;
@@ -57,7 +59,6 @@ h3 {
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 200px;
-    width: 375px;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-18\ at\ 7.29.19\ PM.png);
     background-size: cover;
     text-decoration: none;
@@ -70,7 +71,6 @@ h3 {
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 200px;
-    width: 375px;
     background-image: url(../images/screenshots/Screenshot\ 2023-02-12\ at\ 10.06.05\ PM.png);
     background-size: cover;
     text-decoration: none;
@@ -83,7 +83,6 @@ h3 {
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 200px;
-    width: 375px;
     background-image: url(../images/screenshots/Screenshot\ 2023-03-29\ at\ 3.18.18\ PM.png);
     background-size: cover;
     text-decoration: none;
@@ -96,7 +95,6 @@ h3 {
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 200px;
-    width: 375px;
     background-image: url(../images/screenshots/Screenshot.png);
     background-size: cover;
     text-decoration: none;
