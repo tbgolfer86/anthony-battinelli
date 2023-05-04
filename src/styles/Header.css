@@ -1,6 +1,7 @@
 header {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-image: url(../images/aurora-1197753_1280.jpg);
