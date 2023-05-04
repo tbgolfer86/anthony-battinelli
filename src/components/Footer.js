@@ -7,15 +7,18 @@ import linkedIn from '../images/logos/LI-In-Bug.png';
 import hackerRank from '../images/logos/hackerrank.png';
 
 export default function Footer() {
-  const [animation, setAnimation] = useState('');
   const [animation1, setAnimation1] = useState('');
   const [animation2, setAnimation2] = useState('');
+  const [animation3, setAnimation3] = useState('');
 
   return (
     <footer>
-      <a className={animation} onClick={() => setAnimation('animate__animated animate__bounce animate__repeat-3')} target="_blank" href="https://github.com/tbgolfer86" rel="noreferrer"><img src={gitHub} alt="GitHub logo" /></a>
-      <a className={animation1} onClick={() => setAnimation1('animate__animated animate__bounce animate__repeat-3')} target="_blank" href="https://www.linkedin.com/in/anthony-battinelli" rel="noreferrer"><img src={linkedIn} alt="LinkedIn logo" /></a>
-      <a className={animation2} onClick={() => setAnimation2('animate__animated animate__bounce animate__repeat-3')} target="_blank" href="https://www.hackerrank.com/tbgolfer86" rel="noreferrer"><img src={hackerRank} alt="HackerRank logo" /></a>
+      <a className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__bounce animate__infinite')} onMouseLeave={() => setAnimation1('')}
+      target="_blank" href="https://github.com/tbgolfer86" rel="noreferrer"><img src={gitHub} alt="GitHub logo" /></a>
+      <a className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__bounce animate__infinite')} onMouseLeave={() => setAnimation2('')}
+      target="_blank" href="https://www.linkedin.com/in/anthony-battinelli" rel="noreferrer"><img src={linkedIn} alt="LinkedIn logo" /></a>
+      <a className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__bounce animate__infinite')} onMouseLeave={() => setAnimation3('')}
+      target="_blank" href="https://www.hackerrank.com/tbgolfer86" rel="noreferrer"><img src={hackerRank} alt="HackerRank logo" /></a>
     </footer>
   );
 };
