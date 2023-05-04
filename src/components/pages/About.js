@@ -28,17 +28,17 @@ export default function About() {
           </p>
         </div>
         <div className="icons">
-          <img src={htmlLogo} alt="HTML logo"/>
-          <img src={cssLogo} alt="CSS logo"/>
-          <img src={javascriptLogo} alt="Javascript logo"/>
-          <img src={nodejsLogo} alt="Node.js logo"/>
-          <img src={npmLogo} alt="Npm logo"/>
-          <img src={expressLogo} alt="Express.js logo"/>
-          <img src={handlebarsLogo} alt="Handlebars logo"/>
-          <img src={reactLogo} alt="React logo"/>
-          <img src={sqlLogo} alt="SQL logo"/>
-          <img src={mongoDbLogo} alt="MongoDB logo"/>
-          <img src={vscodeLogo} alt="VS Code logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={htmlLogo} alt="HTML logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={cssLogo} alt="CSS logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={javascriptLogo} alt="Javascript logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={nodejsLogo} alt="Node.js logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={npmLogo} alt="Npm logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={expressLogo} alt="Express.js logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={handlebarsLogo} alt="Handlebars logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={reactLogo} alt="React logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={sqlLogo} alt="SQL logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={mongoDbLogo} alt="MongoDB logo"/>
+          <img className='animate__animated animate__bounceIn animate__repeat-3' src={vscodeLogo} alt="VS Code logo"/>
         </div>        
     </div>
   );
