@@ -10,7 +10,7 @@ import Project5 from '../Project5';
 export default function Portfolio() {
   return (
     <div>
-      <h2>Portfolio</h2>
+      <h2 className='animate__animated animate__fadeIn'>Portfolio</h2>
       <div className='projects'>
         <Project1 />
         <Project2 />

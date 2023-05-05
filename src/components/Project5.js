@@ -13,7 +13,7 @@ import handlebarsLogo from '../images/logos/handlebars-js.webp';
 
 export default function Project5() {
   return (
-    <div className="card">
+    <div className="card animate__animated animate__rubberBand">
       <div className="project-title github-link">
         <h3>Scorecards</h3>
         <a target="_blank" href="https://github.com/sampaul10/scorecard-app" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>

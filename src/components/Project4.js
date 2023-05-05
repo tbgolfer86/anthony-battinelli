@@ -13,7 +13,7 @@ import handlebarsLogo from '../images/logos/handlebars-js.webp';
 
 export default function Project4() {
   return (
-    <div className="card">
+    <div className="card animate__animated animate__rubberBand">
       <div className="project-title github-link">
         <h3>Tech Blog</h3>
         <a target="_blank" href="https://github.com/tbgolfer86/Tech-Blog" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>

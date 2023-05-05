@@ -11,7 +11,7 @@ import expressLogo from '../images/logos/express-js-icon.png';
 
 export default function Project3() {
   return (
-    <div className="card">
+    <div className="card animate__animated animate__rubberBand">
       <div className="project-title github-link">
         <h3>Note Taker</h3>
         <a target="_blank" href="https://github.com/tbgolfer86/Note-Taker" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>

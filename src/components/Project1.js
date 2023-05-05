@@ -8,7 +8,7 @@ import javascriptLogo from '../images/logos/javascript-logo.webp'
 
 export default function Project1() {
   return (
-    <div className="card">
+    <div className="card animate__animated animate__rubberBand">
       <div className="project-title github-link">
         <h3>Recipe Finder</h3>
         <a target="_blank" href="https://github.com/tbgolfer86/Recipe-Finder" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
