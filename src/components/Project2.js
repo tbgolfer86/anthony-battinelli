@@ -9,12 +9,13 @@ import javascriptLogo from '../images/logos/javascript-logo.webp'
 
 export default function Project2() {
   const [animation1, setAnimation1] = useState('card animate__animated animate__rubberBand');
+  const [animation2, setAnimation2] = useState('');
   
   return (
-    <div className={animation1} onMouseEnter={() => setAnimation1('card animate__animated animate__bounce')} onMouseLeave={() => setAnimation1('card')}>
+    <div className={animation1} onMouseEnter={() => setAnimation1('card animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation1('card')}>
       <div className="project-title github-link">
         <h3>Weather Dashboard</h3>
-        <a target="_blank" href="https://github.com/tbgolfer86/Weather-Dashboard" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
+        <a className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__pulse animate__repeat-2 animate__faster')} onMouseLeave={() => setAnimation2('')} target="_blank" href="https://github.com/tbgolfer86/Weather-Dashboard" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
       </div>
       <a className="screenshot-link2" target="_blank" href="https://tbgolfer86.github.io/Weather-Dashboard/" rel="noreferrer">
         <div className="card-summary">
