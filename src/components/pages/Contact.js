@@ -55,7 +55,7 @@ export default function Contact() {
   return (
     <div>
       <h2 className='animate__animated animate__fadeInDown'>Contact Me</h2>
-      <form className="form animate__animated animate__fadeInBottomRight">
+      <form className="form animate__animated animate__fadeInUp">
         <textarea
           value={name}
           name="name"
