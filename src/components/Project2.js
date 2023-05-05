@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState } from "react";
 import '../styles/Project.css';
 
 import gitHub from '../images/logos/github-mark-white.png';
@@ -7,8 +8,10 @@ import cssLogo from '../images/logos/css-logo.webp'
 import javascriptLogo from '../images/logos/javascript-logo.webp'
 
 export default function Project2() {
+  const [animation1, setAnimation1] = useState('card animate__animated animate__rubberBand');
+  
   return (
-    <div className="card animate__animated animate__rubberBand">
+    <div className={animation1} onMouseEnter={() => setAnimation1('card animate__animated animate__bounce')} onMouseLeave={() => setAnimation1('card')}>
       <div className="project-title github-link">
         <h3>Weather Dashboard</h3>
         <a target="_blank" href="https://github.com/tbgolfer86/Weather-Dashboard" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
