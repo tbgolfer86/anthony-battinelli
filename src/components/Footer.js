@@ -13,11 +13,11 @@ export default function Footer() {
 
   return (
     <footer>
-      <a className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__bounce animate__repeat-1')} onMouseLeave={() => setAnimation1('')}
+      <a className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation1('')}
       target="_blank" href="https://github.com/tbgolfer86" rel="noreferrer"><img src={gitHub} alt="GitHub logo" /></a>
-      <a className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__bounce animate__repeat-1')} onMouseLeave={() => setAnimation2('')}
+      <a className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation2('')}
       target="_blank" href="https://www.linkedin.com/in/anthony-battinelli" rel="noreferrer"><img src={linkedIn} alt="LinkedIn logo" /></a>
-      <a className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__bounce animate__repeat-1')} onMouseLeave={() => setAnimation3('')}
+      <a className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation3('')}
       target="_blank" href="https://www.hackerrank.com/tbgolfer86" rel="noreferrer"><img src={hackerRank} alt="HackerRank logo" /></a>
     </footer>
   );
