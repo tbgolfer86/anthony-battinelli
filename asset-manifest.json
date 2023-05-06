@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.052fedfc.css",
+    "main.css": "/React-Portfolio/static/css/main.11b9caef.css",
     "main.js": "/React-Portfolio/static/js/main.543f318d.js",
     "static/media/Screenshot.png": "/React-Portfolio/static/media/Screenshot.6a1729475f583438f337.png",
     "static/media/IMG_2216.jpg": "/React-Portfolio/static/media/IMG_2216.56f29ada538686b8b952.jpg",
     "static/media/Screenshot 2023-02-18 at 7.29.19 PM.png": "/React-Portfolio/static/media/Screenshot 2023-02-18 at 7.29.19 PM.3ba9e7b258adfb5ce3c9.png",
     "static/media/resume-screenshot.png": "/React-Portfolio/static/media/resume-screenshot.379cb62efc3aa25c4298.png",
     "static/media/Screenshot 2023-01-17 at 8.17.17 PM.png": "/React-Portfolio/static/media/Screenshot 2023-01-17 at 8.17.17 PM.44d068fe8e8fb47782ed.png",
-    "static/media/aurora-1197753_1280.jpg": "/React-Portfolio/static/media/aurora-1197753_1280.3c73c7da043b69846b1b.jpg",
     "static/media/Screenshot 2023-02-12 at 10.06.05 PM.png": "/React-Portfolio/static/media/Screenshot 2023-02-12 at 10.06.05 PM.326e5ba5a53f6be78b00.png",
     "static/media/cool-background.png": "/React-Portfolio/static/media/cool-background.58dae7f2ee80bd7b7fbf.png",
     "static/media/Screenshot 2023-03-29 at 3.18.18 PM.png": "/React-Portfolio/static/media/Screenshot 2023-03-29 at 3.18.18 PM.0740dc38fbbbe88b6fb6.png",
+    "static/media/cool-background1.png": "/React-Portfolio/static/media/cool-background1.10d4b124f3d6e971e821.png",
     "static/media/Visual_Studio_Code_1.35_icon.svg.png": "/React-Portfolio/static/media/Visual_Studio_Code_1.35_icon.svg.a03b1b6a68bd90192437.png",
     "static/media/react-logo.png": "/React-Portfolio/static/media/react-logo.80045de70681e3171446.png",
     "static/media/css-logo.webp": "/React-Portfolio/static/media/css-logo.8a9cb64261d07da57f4f.webp",
@@ -21,11 +21,11 @@
     "static/media/javascript-logo.webp": "/React-Portfolio/static/media/javascript-logo.1b1fd6c07c77495c8db7.webp",
     "static/media/handlebars-js.webp": "/React-Portfolio/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.052fedfc.css.map": "/React-Portfolio/static/css/main.052fedfc.css.map",
+    "main.11b9caef.css.map": "/React-Portfolio/static/css/main.11b9caef.css.map",
     "main.543f318d.js.map": "/React-Portfolio/static/js/main.543f318d.js.map"
   },
   "entrypoints": [
-    "static/css/main.052fedfc.css",
+    "static/css/main.11b9caef.css",
     "static/js/main.543f318d.js"
   ]
 }
