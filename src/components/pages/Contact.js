@@ -89,7 +89,6 @@ export default function Contact() {
           placeholder="email"
           rows="1"
         />
-        
         <textarea
           value={message}
           name="message"
@@ -98,7 +97,6 @@ export default function Contact() {
           placeholder="Enter a message..."
           rows="7"
         />
-        
         <button type="button" onClick={handleFormSubmit}>Submit</button>
       </form>
       {errorMessage && (

@@ -15,7 +15,7 @@
 .nav a {
     text-decoration: none;
     color: #DBF4A7;
-    font-size: 12px;
+    font-size: 18px;
     font-weight: bold;
     white-space: nowrap;
 }
@@ -23,3 +23,11 @@
 .nav a:hover {
     color: rgb(0 255 122);
 }
+
+
+/************ media queries ************/
+@media screen and (max-width: 455px) {
+    .nav a {
+        font-size: 12.5px;
+    }
+  }
