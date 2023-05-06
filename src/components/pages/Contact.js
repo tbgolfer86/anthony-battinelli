@@ -50,6 +50,23 @@ export default function Contact() {
     setName('');
     setEmail('');
     setMessage('');
+
+    fetch("https://formsubmit.co/ajax/950a55bcaa3feb40f706f0e323b91d73", {
+      method: "POST",
+      headers: { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        message: message
+      })
+    })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .then(setErrorMessage('Message sent.'))
+    .catch(error => console.log(error));
   };
 
   return (
