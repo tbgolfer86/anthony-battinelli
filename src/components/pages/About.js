@@ -31,7 +31,10 @@ export default function About() {
     <div>
       <h2 className='animate__animated animate__fadeInDown'>About Me</h2>
         <div>
-          <img className='animate__animated animate__fadeInRight' id="avatar"/>
+          <div className="media animate__animated animate__fadeInRight">
+            <img id="avatar"/>
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4JAvHpjipBk?utm_source=generator&theme=0" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
           <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back end design. My previous
                 work experience at an upscale country club as an assistant golf professional has taught me the importance of 
                 paying strong attention to detail and working in a diverse team environment. I have a passion for sports, music, 
