@@ -13,6 +13,7 @@ import sqlLogo from '../../images/logos/sql-logo.png';
 import reactLogo from '../../images/logos/react-logo.png';
 import vscodeLogo from '../../images/logos/Visual_Studio_Code_1.35_icon.svg.png';
 import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
+import spotifyLogo from '../../images/logos/spotify.png';
 
 export default function About() {
   const [animation1, setAnimation1] = useState('');
@@ -26,6 +27,7 @@ export default function About() {
   const [animation9, setAnimation9] = useState('');
   const [animation10, setAnimation10] = useState('');
   const [animation11, setAnimation11] = useState('');
+  const [animation12, setAnimation12] = useState('');
 
   return (
     <div>
@@ -33,7 +35,7 @@ export default function About() {
         <div>
           <div className="media animate__animated animate__fadeInRight">
             <img id="avatar"/>
-            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4JAvHpjipBk?utm_source=generator&theme=0" width="50%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <a className={animation12} onMouseEnter={() => setAnimation12('animate__animated animate__pulse animate__repeat-2 animate__faster')} onMouseLeave={() => setAnimation12('')} target="_blank" href="https://open.spotify.com/user/31sn7qxddjquttne6mpw2uuoaopi?si=e24d7b0bf98844c4" rel="noreferrer"><img src={spotifyLogo} alt="Spotify logo"/></a>
           </div>
           <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back end design. My previous
                 work experience at an upscale country club as an assistant golf professional has taught me the importance of 

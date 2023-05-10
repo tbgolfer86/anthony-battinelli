@@ -1,8 +1,7 @@
 #avatar {
     border-radius: 10px;
-    height: 152px;
-    width: 152px;
-    margin-bottom: 3%;
+    height: 8rem;
+    width: 8rem;
     background-image: url(../images/IMG_2216.jpg);
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 20%);
@@ -11,7 +10,13 @@
 .media {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+.media a img {
+    margin-left: 5px;
+    margin-top: -15px;
+    max-height: 4rem;
 }
 
 p {
