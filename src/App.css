@@ -16,3 +16,7 @@ html {
 h2 {
     padding: 10px;
 }
+
+textarea {
+    resize: none;
+}
