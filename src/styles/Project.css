@@ -93,6 +93,18 @@ h3 {
     border-bottom-right-radius: 10px;
 }
 
+.screenshot-link6 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    height: 200px;
+    background-image: url(../images/screenshots/plant-petaler.png);
+    background-size: cover;
+    text-decoration: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
 /************ card summary section ************/
 .card-summary {
     display: flex;
