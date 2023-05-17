@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.22991add.css",
+    "main.css": "/React-Portfolio/static/css/main.aebc4aa3.css",
     "main.js": "/React-Portfolio/static/js/main.d1eaa90e.js",
     "static/media/plant-petaler.png": "/React-Portfolio/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/React-Portfolio/static/media/Screenshot.6a1729475f583438f337.png",
     "static/media/IMG_2216.jpg": "/React-Portfolio/static/media/IMG_2216.56f29ada538686b8b952.jpg",
     "static/media/Screenshot 2023-02-18 at 7.29.19 PM.png": "/React-Portfolio/static/media/Screenshot 2023-02-18 at 7.29.19 PM.3ba9e7b258adfb5ce3c9.png",
     "static/media/Screenshot 2023-01-17 at 8.17.17 PM.png": "/React-Portfolio/static/media/Screenshot 2023-01-17 at 8.17.17 PM.44d068fe8e8fb47782ed.png",
-    "static/media/resume-screenshot.png": "/React-Portfolio/static/media/resume-screenshot.07748c8dfc978626f1f7.png",
+    "static/media/resume-screenshot.png": "/React-Portfolio/static/media/resume-screenshot.e3afa73555a1e9c1a09c.png",
     "static/media/Screenshot 2023-02-12 at 10.06.05 PM.png": "/React-Portfolio/static/media/Screenshot 2023-02-12 at 10.06.05 PM.326e5ba5a53f6be78b00.png",
     "static/media/cool-background.png": "/React-Portfolio/static/media/cool-background.58dae7f2ee80bd7b7fbf.png",
     "static/media/Screenshot 2023-03-29 at 3.18.18 PM.png": "/React-Portfolio/static/media/Screenshot 2023-03-29 at 3.18.18 PM.0740dc38fbbbe88b6fb6.png",
@@ -24,11 +24,11 @@
     "static/media/javascript-logo.webp": "/React-Portfolio/static/media/javascript-logo.1b1fd6c07c77495c8db7.webp",
     "static/media/handlebars-js.webp": "/React-Portfolio/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.22991add.css.map": "/React-Portfolio/static/css/main.22991add.css.map",
+    "main.aebc4aa3.css.map": "/React-Portfolio/static/css/main.aebc4aa3.css.map",
     "main.d1eaa90e.js.map": "/React-Portfolio/static/js/main.d1eaa90e.js.map"
   },
   "entrypoints": [
-    "static/css/main.22991add.css",
+    "static/css/main.aebc4aa3.css",
     "static/js/main.d1eaa90e.js"
   ]
 }
