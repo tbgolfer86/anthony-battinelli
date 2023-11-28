@@ -4,14 +4,12 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-image: url(../images/cool-background1.png);
-    background-size: cover;
-    background-position: center;
+    background-color: black;
     height: 100px;
 }
 
 h1 {
-    color: #DBF4A7;
+    color: white;
     margin-inline: 2.5%;
     white-space: nowrap;
 }
