@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.aebc4aa3.css",
+    "main.css": "/React-Portfolio/static/css/main.2be0d504.css",
     "main.js": "/React-Portfolio/static/js/main.f7544516.js",
     "static/media/plant-petaler.png": "/React-Portfolio/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/React-Portfolio/static/media/Screenshot.6a1729475f583438f337.png",
@@ -11,7 +11,6 @@
     "static/media/Screenshot 2023-02-12 at 10.06.05 PM.png": "/React-Portfolio/static/media/Screenshot 2023-02-12 at 10.06.05 PM.326e5ba5a53f6be78b00.png",
     "static/media/cool-background.png": "/React-Portfolio/static/media/cool-background.58dae7f2ee80bd7b7fbf.png",
     "static/media/Screenshot 2023-03-29 at 3.18.18 PM.png": "/React-Portfolio/static/media/Screenshot 2023-03-29 at 3.18.18 PM.0740dc38fbbbe88b6fb6.png",
-    "static/media/cool-background1.png": "/React-Portfolio/static/media/cool-background1.10d4b124f3d6e971e821.png",
     "static/media/Visual_Studio_Code_1.35_icon.svg.png": "/React-Portfolio/static/media/Visual_Studio_Code_1.35_icon.svg.a03b1b6a68bd90192437.png",
     "static/media/react-logo.png": "/React-Portfolio/static/media/react-logo.80045de70681e3171446.png",
     "static/media/css-logo.webp": "/React-Portfolio/static/media/css-logo.8a9cb64261d07da57f4f.webp",
@@ -23,11 +22,11 @@
     "static/media/javascript-logo.webp": "/React-Portfolio/static/media/javascript-logo.1b1fd6c07c77495c8db7.webp",
     "static/media/handlebars-js.webp": "/React-Portfolio/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.aebc4aa3.css.map": "/React-Portfolio/static/css/main.aebc4aa3.css.map",
+    "main.2be0d504.css.map": "/React-Portfolio/static/css/main.2be0d504.css.map",
     "main.f7544516.js.map": "/React-Portfolio/static/js/main.f7544516.js.map"
   },
   "entrypoints": [
-    "static/css/main.aebc4aa3.css",
+    "static/css/main.2be0d504.css",
     "static/js/main.f7544516.js"
   ]
 }
