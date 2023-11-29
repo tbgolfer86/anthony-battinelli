@@ -30,9 +30,9 @@ export default function Project5() {
             <img src={cssLogo} alt="CSS logo"/>
             <img src={javascriptLogo} alt="Javascript logo"/>
             <img src={nodejsLogo} alt="Node.js logo"/>
-            <img src={sqlLogo} alt="SQL logo"/>
             <img src={npmLogo} alt="Npm logo"/>
             <img src={expressLogo} alt="Express.js logo"/>
+            <img src={sqlLogo} alt="SQL logo"/>
             <img src={handlebarsLogo} alt="Handlebars logo"/>
           </div>
         </div>
