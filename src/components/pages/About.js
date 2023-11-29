@@ -11,7 +11,6 @@ import expressLogo from '../../images/logos/express-js-icon.png';
 import handlebarsLogo from '../../images/logos/handlebars-js.webp';
 import sqlLogo from '../../images/logos/sql-logo.png';
 import reactLogo from '../../images/logos/react-logo.png';
-import vscodeLogo from '../../images/logos/Visual_Studio_Code_1.35_icon.svg.png';
 import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
 
 export default function About() {
@@ -25,14 +24,13 @@ export default function About() {
   const [animation8, setAnimation8] = useState('');
   const [animation9, setAnimation9] = useState('');
   const [animation10, setAnimation10] = useState('');
-  const [animation11, setAnimation11] = useState('');
 
   return (
     <div>
       <h2 className='animate__animated animate__fadeInDown'>About Me</h2>
         <div>
           <div className="media animate__animated animate__fadeInRight">
-            <img id="avatar"/>
+            <img id="avatar" alt="My Avatar"/>
           </div>
           <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back end design. My previous
                 work experience at an upscale country club as an assistant golf professional has taught me the importance of 
@@ -53,7 +51,6 @@ export default function About() {
           <img className={animation8} onMouseEnter={() => setAnimation8('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation8('')} src={reactLogo} alt="React logo"/>
           <img className={animation9} onMouseEnter={() => setAnimation9('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation9('')} src={sqlLogo} alt="SQL logo"/>
           <img className={animation10} onMouseEnter={() => setAnimation10('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation10('')} src={mongoDbLogo} alt="MongoDB logo"/>
-          <img className={animation11} onMouseEnter={() => setAnimation11('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation11('')} src={vscodeLogo} alt="VS Code logo"/>
         </div>        
     </div>
   );
