@@ -9,12 +9,13 @@
 }
 
 html {
-    background-image: url(./images/cool-background.png);
+    background-image: url(./images/iStock-1058181722.avif);
     background-size: cover;
 }
 
 h2 {
     padding: 10px;
+    color: rgb(255, 106, 0);
 }
 
 textarea {
