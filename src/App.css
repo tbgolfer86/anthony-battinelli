@@ -15,7 +15,8 @@ html {
 
 h2 {
     padding: 10px;
-    color: rgb(255, 106, 0);
+    color: rgb(175 255 0);
+    font-weight: 850;
 }
 
 textarea {
