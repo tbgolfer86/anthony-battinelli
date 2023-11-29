@@ -6,7 +6,7 @@ import gitHub from '../images/logos/github-mark-white.png';
 import htmlLogo from '../images/logos/html-logo.webp';
 import cssLogo from '../images/logos/css-logo.webp';
 import javascriptLogo from '../images/logos/javascript-logo.webp';
-import nodejsLogo from '../images/logos/80-804068_javascript-node-js-logo-png.png';
+import nodejsLogo from '../images/logos/4375017_js_logo_node_icon.png';
 import mongoDBLogo from '../images/logos/MongoDB_SpringGreen.png';
 import npmLogo from '../images/logos/npm-2009.png';
 import expressLogo from '../images/logos/express-js-icon.png';

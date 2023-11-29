@@ -5,13 +5,13 @@ import '../../styles/About.css';
 import htmlLogo from '../../images/logos/html-logo.webp';
 import cssLogo from '../../images/logos/css-logo.webp';
 import javascriptLogo from '../../images/logos/javascript-logo.webp';
-import nodejsLogo from '../../images/logos/80-804068_javascript-node-js-logo-png.png';
+import nodejsLogo from '../../images/logos/4375017_js_logo_node_icon.png';
 import npmLogo from '../../images/logos/npm-2009.png';
 import expressLogo from '../../images/logos/express-js-icon.png';
 import handlebarsLogo from '../../images/logos/handlebars-js.webp';
 import sqlLogo from '../../images/logos/sql-logo.png';
 import reactLogo from '../../images/logos/react-logo.png';
-import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
+import mongoDbLogo from '../../images/logos/MongoDB_SpringGreen.png';
 
 export default function About() {
   const [animation1, setAnimation1] = useState('');
