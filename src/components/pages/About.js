@@ -30,7 +30,7 @@ export default function About() {
       <h2 className='animate__animated animate__fadeInDown'>About Me</h2>
         <div>
           <div className="media animate__animated animate__fadeInRight">
-            <img id="avatar" alt="My Avatar"/>
+            <img id="avatar"/>
           </div>
           <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back end design. My previous
                 work experience at an upscale country club as an assistant golf professional has taught me the importance of 
