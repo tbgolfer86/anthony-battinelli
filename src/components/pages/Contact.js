@@ -51,7 +51,7 @@ export default function Contact() {
     setEmail('');
     setMessage('');
 
-    fetch("https://formsubmit.co/ajax/ee6423199fb3dad6b686b7b8574e15d5", {
+    fetch("https://formsubmit.io/send/4d383f56-1fd7-48f9-b15e-b86eaa5a8628", {
       method: "POST",
       headers: { 
         'Content-Type': 'application/json',
