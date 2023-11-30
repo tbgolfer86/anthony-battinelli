@@ -32,7 +32,7 @@ export default function About() {
           <div className="media animate__animated animate__fadeInRight">
             <img id="avatar"/>
           </div>
-          <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back end design. My previous
+          <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back-end design. My previous
                 work experience at an upscale country club as an assistant golf professional has taught me the importance of 
                 paying strong attention to detail and working in a diverse team environment. I have a passion for sports, music, 
                 pop culture, retail stock and options trading, and modern technology. I am confident in my ability to excel in a world 
