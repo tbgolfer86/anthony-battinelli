@@ -10,8 +10,8 @@ import npmLogo from '../../images/logos/npm-2009.png';
 import expressLogo from '../../images/logos/express-js-icon.png';
 import handlebarsLogo from '../../images/logos/handlebars-js.webp';
 import sqlLogo from '../../images/logos/sql-logo.png';
-import reactLogo from '../../images/logos/react-logo.png';
-import mongoDbLogo from '../../images/logos/MongoDB_SpringGreen.png';
+import reactLogo from '../../images/logos/react-logo1.png';
+import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
 
 export default function About() {
   const [animation1, setAnimation1] = useState('');
