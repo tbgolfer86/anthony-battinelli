@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from "react";
 import '../styles/Project.css';
 
-import gitHub from '../images/logos/github-mark-white.png';
+import gitHub from '../images/logos/github-mark.png';
 import htmlLogo from '../images/logos/html-logo.webp'
 import cssLogo from '../images/logos/css-logo.webp'
 import javascriptLogo from '../images/logos/javascript-logo.webp'
