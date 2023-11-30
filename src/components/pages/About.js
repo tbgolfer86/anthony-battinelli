@@ -5,7 +5,7 @@ import '../../styles/About.css';
 import htmlLogo from '../../images/logos/html-logo.webp';
 import cssLogo from '../../images/logos/css-logo.webp';
 import javascriptLogo from '../../images/logos/javascript-logo.webp';
-import nodejsLogo from '../../images/logos/4375017_js_logo_node_icon.png';
+import nodejsLogo from '../../images/logos/Node.js_logo.png';
 import npmLogo from '../../images/logos/npm-logo-black.png';
 import expressLogo from '../../images/logos/express-js-icon.png';
 import handlebarsLogo from '../../images/logos/handlebars-js.webp';
