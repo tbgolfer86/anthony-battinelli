@@ -29,7 +29,7 @@ export default function About() {
     <div>
       <h2 className='animate__animated animate__fadeInDown'>About Me</h2>
         <div>
-          <div className="media animate__animated animate__fadeInRight">
+          <div className="media animate__animated animate__fadeInLeft">
             <img id="avatar"/>
           </div>
           <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back-end design. My previous
@@ -40,7 +40,7 @@ export default function About() {
                 analytical, and organizational skills.
           </p>
         </div>
-        <div className="icons animate__animated animate__fadeInLeft">
+        <div className="icons animate__animated animate__fadeInRight">
           <img className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation1('')} src={htmlLogo} alt="HTML logo"/>
           <img className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation2('')} src={cssLogo} alt="CSS logo"/>
           <img className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation3('')} src={javascriptLogo} alt="Javascript logo"/>
