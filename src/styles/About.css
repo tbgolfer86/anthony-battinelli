@@ -31,12 +31,13 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgb(235 235 235 / 85%);
     border-radius: 10px;
 }
 
 .icons img {
-    max-height: 2.5rem;
-    padding: 1.5%;
+    max-width: 8%;
+    height: fit-content;
 }
