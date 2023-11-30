@@ -18,6 +18,10 @@ h1 {
     font-weight: 850;
 }
 
+h1:hover {
+    cursor: default;
+}
+
 .content {
     margin-top: 2%;
     margin-inline: 5%;

@@ -19,6 +19,10 @@ h2 {
     font-weight: 850;
 }
 
+h2:hover {
+    cursor: default;
+}
+
 textarea {
     resize: none;
 }
