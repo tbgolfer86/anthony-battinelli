@@ -14,14 +14,14 @@
 
 .nav a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 850;
     white-space: nowrap;
 }
 
 .nav a:hover {
-    color: rgb(0 255 122);
+    color: #ff5600;
 }
 
 

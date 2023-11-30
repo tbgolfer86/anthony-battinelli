@@ -4,12 +4,15 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: #ebebeb;
     height: 100px;
+    border-bottom: #ff5600;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
 }
 
 h1 {
-    color: white;
+    color: black;
     margin-inline: 2.5%;
     white-space: nowrap;
     font-weight: 850;
