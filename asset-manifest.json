@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.53c6cd48.css",
+    "main.css": "/React-Portfolio/static/css/main.57c93047.css",
     "main.js": "/React-Portfolio/static/js/main.e55f0e51.js",
     "static/media/plant-petaler.png": "/React-Portfolio/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/React-Portfolio/static/media/Screenshot.6a1729475f583438f337.png",
@@ -24,11 +24,11 @@
     "static/media/javascript-logo.webp": "/React-Portfolio/static/media/javascript-logo.1b1fd6c07c77495c8db7.webp",
     "static/media/handlebars-js.webp": "/React-Portfolio/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.53c6cd48.css.map": "/React-Portfolio/static/css/main.53c6cd48.css.map",
+    "main.57c93047.css.map": "/React-Portfolio/static/css/main.57c93047.css.map",
     "main.e55f0e51.js.map": "/React-Portfolio/static/js/main.e55f0e51.js.map"
   },
   "entrypoints": [
-    "static/css/main.53c6cd48.css",
+    "static/css/main.57c93047.css",
     "static/js/main.e55f0e51.js"
   ]
 }
