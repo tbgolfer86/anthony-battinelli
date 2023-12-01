@@ -1,11 +1,11 @@
 footer {
-    background-color: rgb(175 255 0);
+    background-color: rgb(240 220 78);
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    border-top: #ff5600;
+    border-top: #e44d27;
     border-top-style: solid;
     border-top-width: 8px;
 }
