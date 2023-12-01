@@ -1,8 +1,8 @@
 .resume {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 20%);
     display: flex;
-    height: 255px;
-    width: 200px;
+    height: 285px;
+    width: 235px;
     background-image: url(../images/screenshots/resume-screenshot.png);
     background-size: cover;
     background-position: center;
