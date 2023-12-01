@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.5bd1cae0.css",
+    "main.css": "/React-Portfolio/static/css/main.4e4f1bc9.css",
     "main.js": "/React-Portfolio/static/js/main.2bc4be2e.js",
     "static/media/plant-petaler.png": "/React-Portfolio/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/React-Portfolio/static/media/Screenshot.6a1729475f583438f337.png",
@@ -19,16 +19,17 @@
     "static/media/GitHub-logo.png": "/React-Portfolio/static/media/GitHub-logo.7c8f7736007664c4b0ba.png",
     "static/media/MongoDB_SlateBlue.png": "/React-Portfolio/static/media/MongoDB_SlateBlue.317cf409a73f6a6febb6.png",
     "static/media/MongoDB_SpringGreen.png": "/React-Portfolio/static/media/MongoDB_SpringGreen.cc5ffcde14974bdab763.png",
+    "static/media/PixelNES.otf": "/React-Portfolio/static/media/PixelNES.40064b60bb79b4ffa4a6.otf",
     "static/media/4375017_js_logo_node_icon.png": "/React-Portfolio/static/media/4375017_js_logo_node_icon.71da8e5dd61c2ff164f8.png",
     "static/media/sql-logo.png": "/React-Portfolio/static/media/sql-logo.343aca4ba0de41a4e05a.png",
     "static/media/javascript-logo.webp": "/React-Portfolio/static/media/javascript-logo.1b1fd6c07c77495c8db7.webp",
     "static/media/handlebars-js.webp": "/React-Portfolio/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.5bd1cae0.css.map": "/React-Portfolio/static/css/main.5bd1cae0.css.map",
+    "main.4e4f1bc9.css.map": "/React-Portfolio/static/css/main.4e4f1bc9.css.map",
     "main.2bc4be2e.js.map": "/React-Portfolio/static/js/main.2bc4be2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bd1cae0.css",
+    "static/css/main.4e4f1bc9.css",
     "static/js/main.2bc4be2e.js"
   ]
 }
