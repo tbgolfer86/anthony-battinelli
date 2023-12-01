@@ -24,7 +24,7 @@
     color: #ff5600;
 }
 
-.nav-link.active {
+.nav a.active, .nav a.clicked {
     text-decoration: underline;
     text-decoration-thickness: 4px;
     text-decoration-color: #ff5600;
