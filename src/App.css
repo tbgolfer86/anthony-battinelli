@@ -11,12 +11,13 @@
 html {
     background-image: url(./images/iStock-1058181722.avif);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h2 {
     padding: 10px;
     color: rgb(240 220 78);
-    font-weight: 850;
+    font-family: 'Pixels';
 }
 
 h2:hover {
