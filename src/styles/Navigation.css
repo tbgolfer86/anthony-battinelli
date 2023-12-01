@@ -26,6 +26,7 @@
 
 .nav a.active, .nav a.clicked {
     text-decoration: underline;
+    text-underline-position: under;
     text-decoration-thickness: 4px;
     text-decoration-color: #ff3b00;
     color: black;
