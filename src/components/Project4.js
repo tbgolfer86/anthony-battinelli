@@ -22,7 +22,7 @@ export default function Project4() {
         <h3>Tech Blog</h3>
         <a className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__pulse animate__repeat-2 animate__faster')} onMouseLeave={() => setAnimation2('')} target="_blank" href="https://github.com/tbgolfer86/Tech-Blog" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
       </div>
-      <a className="screenshot-link4" target="_blank" href="https://uconn-tech-blog.herokuapp.com" rel="noreferrer">
+      <a className="screenshot-link4" target="_blank" href="https://tech-blog-uconn.herokuapp.com" rel="noreferrer">
         <div className="card-summary">
           <p>A CMS-style blog site where devs can publish blog posts and comment on other devs' posts.</p>
           <div className="project-icons">
