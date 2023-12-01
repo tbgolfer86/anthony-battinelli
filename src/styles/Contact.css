@@ -15,7 +15,10 @@ textarea {
 }
 
 .error-text {
-  margin-left: 20px;
+  margin-inline: 20px;
+  background: #ebebeb;
+  color: black;
+  border-radius: 10px;
 }
 
 button {
