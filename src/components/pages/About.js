@@ -30,7 +30,7 @@ export default function About() {
     <div>
       <h2 className='animate__animated animate__fadeInDown'>About Me</h2>
         <div>
-          <div className="media animate__animated animate__fadeInLeft">
+          <div className="media animate__animated animate__fadeInRight">
             <img className="avatar" src={folder} alt="folder"/>
           </div>
           <p className='animate__animated animate__fadeInRight'> I am a critical thinking full stack web developer with experience in front and back-end design. My previous
