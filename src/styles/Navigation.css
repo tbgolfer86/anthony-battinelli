@@ -24,6 +24,12 @@
     color: #ff5600;
 }
 
+.nav-link.active {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #ff5600;
+}  
+
 
 /************ media queries ************/
 @media screen and (max-width: 455px) {
