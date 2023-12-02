@@ -2,26 +2,15 @@
   margin-inline: 20px;
 }
 
-.form input {
+textarea {
   display: block;
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
-}
-
-textarea {
-  width: 100%;
   border-radius: 2.5px;
 }
 
-.error-text {
-  margin-inline: 20px;
-  background: #ebebeb;
-  color: black;
-  border-radius: 10px;
-}
-
-button {
+#button {
   background-color: black;
   border-radius: 50px;
   color: #ebebeb;
@@ -31,4 +20,8 @@ button {
   margin-top: 5px;
   margin-bottom: 5px;
   font-family: 'Pixels';
+}
+
+#honeyspot {
+  display: none;
 }
