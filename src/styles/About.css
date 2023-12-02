@@ -42,6 +42,7 @@ p:hover {
 }
 
 .icons img {
-    max-width: 13%;
+    max-width: 10%;
     margin: 2%;
+    margin-inline: 4%;
 }
