@@ -22,12 +22,10 @@
 ---
 
   ## Usage
-  This application has links in the navigation bar that display the corresponding page. Each project in the Work section contains a GitHub link that opens the GitHub repo in a separate tab as well as a link to the deployed application which is accessed by clicking on the project itself. The Resume section displays a link to a google doc that also opens in a separate tab. The footer of the page contains links to my Github, LinkedIn, and HackerRank pages. Lastly, the Contact Me page displays a form which can be used to send me a message via email.<br><br>
+  This application has links in the navigation bar that display the corresponding page. Each project in the Work section contains a GitHub link that opens the GitHub repo in a separate tab as well as a link to the deployed application which is accessed by clicking on the project itself. The Resume section displays a link to a google doc that also opens in a separate tab. The footer of the page contains links to my Github, LinkedIn, and HackerRank pages. Lastly, the Contact Me page displays a form that can be used to send a message to my email.<br><br>
   https://tbgolfer86.github.io/React-Portfolio/<br><br>
-  These screenshots show it open in the browser:<br>
-  ![alt text](./src/images/screenshots/Screenshot%202023-05-03%20at%205.33.15%20PM.png)<br><br>
-  ![alt text](./src/images/screenshots/Screenshot%202023-05-03%20at%205.33.42%20PM.png)<br><br>
-  ![alt text](./src/images/screenshots/Screenshot%202023-05-03%20at%205.34.07%20PM.png)
+  This screenshot shows it open in the browser:<br>
+  ![alt text](./src/images/screenshots/Screenshot%202023-12-02%20at%202.48.27 PM.png)
 
 ---
 
