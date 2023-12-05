@@ -12,13 +12,15 @@ export default function Portfolio() {
   return (
     <div>
       <h2 className='animate__animated animate__rubberBand'>Portfolio</h2>
-      <div className='projects'>
-        <Project1 />
-        <Project2 />
-        <Project3 />
-        <Project4 />
-        <Project5 />
-        <Project6 />
+      <div className='portfolio'> 
+        <div className='projects'>
+          <Project1 />
+          <Project2 />
+          <Project3 />
+          <Project4 />
+          <Project5 />
+          <Project6 />
+        </div> 
       </div>      
     </div>
   );
