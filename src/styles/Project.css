@@ -113,6 +113,10 @@ h3:hover {
     border-bottom-right-radius: 10px;
 }
 
+.screenshot-link1:hover, .screenshot-link2:hover, .screenshot-link3:hover, .screenshot-link4:hover, .screenshot-link5:hover, .screenshot-link6:hover {
+    transform: scale(1.07);
+}
+
 /************ card summary section ************/
 .card-summary {
     display: flex;
@@ -133,6 +137,10 @@ h3:hover {
     font-size: 12px;
     margin: 4px;
     background: none;
+}
+
+.card-summary p:hover {
+    cursor: pointer;
 }
 
 .project-icons {
