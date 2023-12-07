@@ -14,13 +14,12 @@ import handlebarsLogo from '../images/logos/handlebars-js.webp';
 
 export default function Project4() {
   const [animation1, setAnimation1] = useState('card animate__animated animate__rubberBand');
-  const [animation2, setAnimation2] = useState('');
   
   return (
     <div className={animation1} onMouseEnter={() => setAnimation1('card animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation1('card')}>
       <div className="project-title github-link">
         <h3>Tech Blog</h3>
-        <a className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__pulse animate__repeat-2 animate__faster')} onMouseLeave={() => setAnimation2('')} target="_blank" href="https://github.com/tbgolfer86/Tech-Blog" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
+        <a className="animate__animated animate__pulse animate__infinite" target="_blank" href="https://github.com/tbgolfer86/Tech-Blog" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
       </div>
       <a className="screenshot-link4" target="_blank" href="https://tech-blog-uconn.herokuapp.com" rel="noreferrer">
         <div className="card-summary">
