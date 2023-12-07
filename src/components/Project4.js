@@ -16,7 +16,7 @@ export default function Project4() {
   const [animation1, setAnimation1] = useState('card animate__animated animate__rubberBand');
   
   return (
-    <div className={animation1} onMouseEnter={() => setAnimation1('card animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation1('card')}>
+    <div className={animation1}>
       <div className="project-title github-link">
         <h3>Tech Blog</h3>
         <a className="animate__animated animate__pulse animate__infinite" target="_blank" href="https://github.com/tbgolfer86/Tech-Blog" rel="noreferrer"><img src={gitHub} alt="GitHub logo"/></a>
