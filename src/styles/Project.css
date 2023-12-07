@@ -37,6 +37,10 @@ h3:hover {
     background-color: #73aa62;
 }
 
+.github-link img:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0);
+}
+
 .screenshot-link1 {
     display: flex;
     flex-direction: row-reverse;
