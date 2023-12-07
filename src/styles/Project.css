@@ -117,10 +117,6 @@ h3:hover {
     transform: scale(1.07);
 }
 
-.screenshot-link1.active, .screenshot-link1.clicked {
-    transform: scale(1);
-} 
-
 /************ card summary section ************/
 .card-summary {
     display: flex;
