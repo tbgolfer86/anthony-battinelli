@@ -22,6 +22,11 @@ textarea {
   font-family: 'Pixels';
 }
 
+#button:hover {
+  cursor: pointer;
+  color: #36bb3f;
+}
+
 #honeyspot {
   display: none;
 }
