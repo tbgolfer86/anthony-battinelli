@@ -3,17 +3,28 @@ import '../../styles/Contact.css';
 
 export default function Contact() {
   return (
-    <div>
-      <h2 className='animate__animated animate__fadeInDown'>Contact Me</h2>
-      <form className='form animate__animated animate__fadeInDown' id="contactform" action="https://formsubmit.io/send/4d383f56-1fd7-48f9-b15e-b86eaa5a8628" method="POST">
-        <textarea name="name" type="text" id="name" placeholder='name' rows='1'></textarea>
-        <textarea name="email" type="email" id="email" placeholder='email' rows='1'></textarea>
-        <textarea name="comment" id="comment" placeholder='Enter a message...' rows='7'></textarea>
-
-        <textarea name="_formsubmit_id" type="text" id='honeyspot'></textarea>
-
-        <input value="Submit" type="submit" id='button'></input>
-      </form>
+    <div className='animate__animated animate__fadeInDown'>
+      <h2>Contact Me</h2>
+      <div className="form-container">
+        <form className="form" id="contactform" action="https://formsubmit.io/send/4d383f56-1fd7-48f9-b15e-b86eaa5a8628" method="POST">
+          <div className="form-group">
+            <label for="name">Your Name:</label>
+            <input name="name" id="name" type="text"></input>
+          </div>
+          <div className="form-group">
+            <label for="email">Your Email:</label>
+            <input name="email" id="email" type="email"></input>
+          </div>
+          <div className="form-group" id="honeyspot">
+            <input name="_formsubmit_id" type="text"></input>
+          </div>
+          <div className="form-group">
+            <label for="textarea">Send a message:</label>
+            <textarea cols="50" rows="10" name="comment" id="comment"></textarea>
+          </div>
+          <button type="submit" className="form-submit-btn">Submit</button>
+        </form>
+      </div>
     </div>
   );
 };
