@@ -25,10 +25,6 @@
 }
 
 .nav a.active, .nav a.clicked {
-    text-decoration: underline;
-    text-underline-position: under;
-    text-decoration-thickness: 1px;
-    text-decoration-color: rgb(91, 91, 91);
     color: #bb68b1;
 }  
 
