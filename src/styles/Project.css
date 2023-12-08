@@ -158,10 +158,10 @@ h3:hover {
 
 @media (hover: none) {
     .github-link img:hover {
-      background-color: #73aa62; /* Revert to regular background color */
-      /* Other styles for touch screens */
+      background-color: #73aa62;
+      box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 50%)
     }
     .screenshot-link1:hover, .screenshot-link2:hover, .screenshot-link3:hover, .screenshot-link4:hover, .screenshot-link5:hover, .screenshot-link6:hover {
-        transform: none; /* Revert to original size */
+      transform: none;
     }
 }

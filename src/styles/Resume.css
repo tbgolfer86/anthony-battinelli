@@ -16,7 +16,6 @@
 
 @media (hover: none) {
     .resume:hover {
-      transform: none; /* Revert to original size */
-      /* Other styles for touch screens */
+      transform: none;
     }
-  }
+}
