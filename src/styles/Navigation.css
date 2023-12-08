@@ -38,4 +38,10 @@
     .nav a {
         font-size: 12.5px;
     }
-  }
+}
+
+@media (hover: none) {
+    .nav a:hover {
+        color: white;
+    }
+}
