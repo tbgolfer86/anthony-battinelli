@@ -34,12 +34,11 @@ h3:hover {
     max-height: 3rem;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 50%);
     border-radius: 50%;
-    background-color: #73aa62;
 }
 
 .github-link img:hover {
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0);
-    background-color: #95dd7f;
+    background-color: #e8ede7;
 }
 
 .screenshot-link1 {
@@ -158,7 +157,6 @@ h3:hover {
 
 @media (hover: none) {
     .github-link img:hover {
-      background-color: #73aa62;
       box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 50%)
     }
     .screenshot-link1:hover, .screenshot-link2:hover, .screenshot-link3:hover, .screenshot-link4:hover, .screenshot-link5:hover, .screenshot-link6:hover {
