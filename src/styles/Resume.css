@@ -13,3 +13,10 @@
 .resume:hover {
     transform: scale(1.07);
 }
+
+@media (hover: none) {
+    .resume:hover {
+      transform: none; /* Revert to original size */
+      /* Other styles for touch screens */
+    }
+  }
