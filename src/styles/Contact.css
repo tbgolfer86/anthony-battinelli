@@ -13,6 +13,8 @@
   border-radius: 16px;
   background-size: 200% 100%;
   animation: gradient 5s ease infinite;
+  max-width: 720px;
+  margin: 2%;
 }
 
 @keyframes gradient {
