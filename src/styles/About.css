@@ -2,18 +2,12 @@
     height: 8rem;
     width: 8rem;
     margin: 2%;
+    margin-bottom: 4%;
 }
 
-.media {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 3%;
-}
-
-.media a img {
-    margin-left: 5px;
-    margin-top: -15px;
-    max-height: 4rem;
+.about-section {
+    background-color: rgb(235 235 235 / 85%);
+    border-radius: 10px;
 }
 
 p {
@@ -22,9 +16,6 @@ p {
     font-size: 1.1rem;
     font-weight: 650;
     color: black;
-    background-color: rgb(235 235 235 / 85%);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 p:hover {
@@ -37,9 +28,6 @@ p:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(235 235 235 / 85%);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .icons img {

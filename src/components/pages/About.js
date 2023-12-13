@@ -29,20 +29,19 @@ export default function About() {
   return (
     <div>
       <h2 className='animate__animated animate__fadeInDown'>About Me</h2>
-        <div>
-          <div className="media animate__animated animate__fadeInRight">
-            <img className="avatar" src={folder} alt="folder"/>
-          </div>
-          <p className='animate__animated animate__fadeInRight'> &lt;p&gt; <br></br>
-                I am a critical thinking full stack web developer with experience in front and back-end design. My previous
-                work experience at an upscale country club as an assistant golf professional has taught me the importance of 
-                paying strong attention to detail and working in a diverse team environment. I have a passion for sports, music, 
-                pop culture, retail stock and options trading, and modern technology. I am confident in my ability to excel in a world 
-                driven by tech by utilizing a combination of strong communication, collaboration, problem-solving, 
-                analytical, and organizational skills. <br></br> &lt;/p&gt;
-          </p>
-        </div>
-        <div className="icons animate__animated animate__fadeInRight">
+      <img className="animate__animated animate__fadeInRight avatar" src={folder} alt="folder"/>
+      <div className='about-section animate__animated animate__fadeInRight'>
+        <p> 
+          &lt;p&gt; <br></br>
+          I am a critical thinking full stack web developer with experience in front and back-end design. My previous
+          work experience at an upscale country club as an assistant golf professional has taught me the importance of 
+          paying strong attention to detail and working in a diverse team environment. I have a passion for sports, music, 
+          pop culture, retail stock and options trading, and modern technology. I am confident in my ability to excel in a world 
+          driven by tech by utilizing a combination of strong communication, collaboration, problem-solving, 
+          analytical, and organizational skills. <br></br> 
+          &lt;/p&gt;
+        </p>
+        <div className="icons">
           <img className={animation1} onMouseEnter={() => setAnimation1('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation1('')} src={htmlLogo} alt="HTML logo"/>
           <img className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation2('')} src={cssLogo} alt="CSS logo"/>
           <img className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation3('')} src={javascriptLogo} alt="Javascript logo"/>
@@ -53,7 +52,8 @@ export default function About() {
           <img className={animation10} onMouseEnter={() => setAnimation10('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation10('')} src={mongoDbLogo} alt="MongoDB logo"/>
           <img className={animation7} onMouseEnter={() => setAnimation7('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation7('')} src={handlebarsLogo} alt="Handlebars logo"/>
           <img className={animation8} onMouseEnter={() => setAnimation8('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation8('')} src={reactLogo} alt="React logo"/>
-        </div>        
+        </div> 
+      </div>       
     </div>
   );
 };
