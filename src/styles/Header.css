@@ -27,4 +27,5 @@ h1:hover {
     margin-inline: 5%;
     margin-bottom: 2%;
     min-height: 100vh;
+    max-width: 1045px;
 }
