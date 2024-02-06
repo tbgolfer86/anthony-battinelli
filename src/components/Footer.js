@@ -4,12 +4,10 @@ import '../styles/Footer.css';
 
 import gitHub from '../images/logos/GitHub-logo.png';
 import linkedIn from '../images/logos/LI-In-Bug.png';
-import hackerRank from '../images/logos/hackerrank.png';
 
 export default function Footer() {
   const [animation1, setAnimation1] = useState('');
   const [animation2, setAnimation2] = useState('');
-  const [animation3, setAnimation3] = useState('');
 
   return (
     <footer>
@@ -17,8 +15,6 @@ export default function Footer() {
       target="_blank" href="https://github.com/tbgolfer86" rel="noreferrer"><img src={gitHub} alt="GitHub logo" /></a>
       <a className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation2('')}
       target="_blank" href="https://www.linkedin.com/in/anthony-battinelli" rel="noreferrer"><img src={linkedIn} alt="LinkedIn logo" /></a>
-      <a className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__headShake animate__repeat-1')} onMouseLeave={() => setAnimation3('')}
-      target="_blank" href="https://www.hackerrank.com/tbgolfer86" rel="noreferrer"><img src={hackerRank} alt="HackerRank logo" /></a>
     </footer>
   );
 };
