@@ -3,7 +3,7 @@ import { useState } from "react";
 import '../styles/Footer.css';
 
 import gitHub from '../images/logos/GitHub-logo.png';
-import linkedIn from '../images/logos/LI-In-Bug.png';
+import linkedIn from '../images/logos/linkedinBlack.png';
 
 export default function Footer() {
   const [animation1, setAnimation1] = useState('');
