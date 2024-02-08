@@ -12,7 +12,7 @@ import handlebarsLogo from '../../images/logos/handlebars-js.webp';
 import sqlLogo from '../../images/logos/sql-logo.png';
 import reactLogo from '../../images/logos/react-logo1.png';
 import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
-import folder from '../../images/logos/3Dfolder.png'
+import uconn from '../../images/logos/University of Connecticut favicon.png'
 
 export default function About() {
   const [animation1, setAnimation1] = useState('');
@@ -29,7 +29,7 @@ export default function About() {
   return (
     <div>
       <h2 className='animate__animated animate__fadeInDown'>About Me</h2>
-      <img className="animate__animated animate__fadeInRight avatar" src={folder} alt="folder"/>
+      <img className="animate__animated animate__fadeInRight avatar" src={uconn} alt="UConn Logo"/>
       <div className='about-section animate__animated animate__fadeInRight'>
         <p> 
           &lt;p&gt; <br></br>
