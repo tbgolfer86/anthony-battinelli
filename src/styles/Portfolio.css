@@ -7,5 +7,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 1045px;
+    max-width: 900px;
 }
