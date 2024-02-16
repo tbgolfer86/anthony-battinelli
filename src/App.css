@@ -9,14 +9,14 @@
 }
 
 html {
-    background-image: url(./images/iStock-1058181722.avif);
+    background: #eeeeee;
     background-size: cover;
     background-attachment: fixed;
 }
 
 h2 {
     padding: 10px;
-    color: rgb(240 220 78);
+    color: #000000;
     font-family: 'Pixels';
 }
 
