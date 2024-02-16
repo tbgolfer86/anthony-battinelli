@@ -33,12 +33,7 @@ export default function About() {
       <div className='about-section animate__animated animate__fadeInRight'>
         <p> 
           &lt;p&gt; <br></br>
-          I am a critical thinking full stack web developer with experience in front and back-end design. My previous
-          work experience at an upscale country club as an assistant golf professional has taught me the importance of 
-          paying strong attention to detail and working in a diverse team environment. I have a passion for sports, music, 
-          pop culture, retail stock and options trading, and modern technology. I am confident in my ability to excel in a world 
-          driven by tech by utilizing a combination of strong communication, collaboration, problem-solving, 
-          analytical, and organizational skills. <br></br> 
+          Passionate about sports, music, and modern culture, I stay up-to-date with the latest trends and developments. With coding experience and a love for technology, I enjoy problem-solving and exploring innovative solutions. I value a diverse team environment while utilizing a combination of strong communication, collaboration, and organizational skills. 💻 <br></br> 
           &lt;/p&gt;
         </p>
         <div className="icons">
