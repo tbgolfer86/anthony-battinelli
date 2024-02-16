@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anthony-battinelli/static/css/main.e7ff4a29.css",
-    "main.js": "/anthony-battinelli/static/js/main.dd0cda00.js",
+    "main.css": "/anthony-battinelli/static/css/main.3b01776a.css",
+    "main.js": "/anthony-battinelli/static/js/main.6facaddf.js",
     "static/media/plant-petaler.png": "/anthony-battinelli/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/anthony-battinelli/static/media/Screenshot.6a1729475f583438f337.png",
     "static/media/Screenshot 2023-02-18 at 7.29.19 PM.png": "/anthony-battinelli/static/media/Screenshot 2023-02-18 at 7.29.19 PM.3ba9e7b258adfb5ce3c9.png",
@@ -24,11 +24,11 @@
     "static/media/javascript-logo.webp": "/anthony-battinelli/static/media/javascript-logo.1b1fd6c07c77495c8db7.webp",
     "static/media/handlebars-js.webp": "/anthony-battinelli/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/anthony-battinelli/index.html",
-    "main.e7ff4a29.css.map": "/anthony-battinelli/static/css/main.e7ff4a29.css.map",
-    "main.dd0cda00.js.map": "/anthony-battinelli/static/js/main.dd0cda00.js.map"
+    "main.3b01776a.css.map": "/anthony-battinelli/static/css/main.3b01776a.css.map",
+    "main.6facaddf.js.map": "/anthony-battinelli/static/js/main.6facaddf.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7ff4a29.css",
-    "static/js/main.dd0cda00.js"
+    "static/css/main.3b01776a.css",
+    "static/js/main.6facaddf.js"
   ]
 }
