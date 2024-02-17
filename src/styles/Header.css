@@ -6,7 +6,7 @@ header {
     justify-content: space-between;
     background-color: black;
     height: 100px;
-    border-bottom: rgb(17 17 17);
+    border-bottom: #f8504b;
     border-bottom-style: solid;
     border-bottom-width: 18px;
 }

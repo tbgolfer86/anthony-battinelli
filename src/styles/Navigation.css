@@ -21,11 +21,11 @@
 }
 
 .nav a:hover {
-    color: #f8504b;
+    color: #f0dc4e;
 }
 
 .nav a.active, .nav a.clicked {
-    color: #bb68b1;
+    color: #f0dc4e;
 }  
 
 
