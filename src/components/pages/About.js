@@ -33,7 +33,7 @@ export default function About() {
       <div className='about-section animate__animated animate__fadeInRight'>
         <p> 
           &lt;p&gt; <br></br>
-          Passionate about sports, music, and modern culture, I stay up-to-date with the latest trends and developments. With coding experience and a love for technology, I enjoy problem-solving and exploring innovative solutions. I value a diverse team environment while utilizing a combination of strong communication, collaboration, and organizational skills. 💻 <br></br> 
+          Passionate about sports, music, and modern culture, I stay up-to-date with the latest trends and developments. With coding experience and a love for technology, I enjoy problem-solving and exploring innovative solutions. I value a diverse team environment while utilizing a combination of strong communication, collaboration, and organizational skills. <br></br> 
           &lt;/p&gt;
         </p>
         <div className="icons">
