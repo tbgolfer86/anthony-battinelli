@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anthony-battinelli/static/css/main.b106fb1c.css",
-    "main.js": "/anthony-battinelli/static/js/main.b781df30.js",
+    "main.js": "/anthony-battinelli/static/js/main.80373f68.js",
     "static/media/plant-petaler.png": "/anthony-battinelli/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/anthony-battinelli/static/media/Screenshot.6a1729475f583438f337.png",
     "static/media/Screenshot 2023-02-18 at 7.29.19 PM.png": "/anthony-battinelli/static/media/Screenshot 2023-02-18 at 7.29.19 PM.3ba9e7b258adfb5ce3c9.png",
@@ -25,10 +25,10 @@
     "static/media/handlebars-js.webp": "/anthony-battinelli/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/anthony-battinelli/index.html",
     "main.b106fb1c.css.map": "/anthony-battinelli/static/css/main.b106fb1c.css.map",
-    "main.b781df30.js.map": "/anthony-battinelli/static/js/main.b781df30.js.map"
+    "main.80373f68.js.map": "/anthony-battinelli/static/js/main.80373f68.js.map"
   },
   "entrypoints": [
     "static/css/main.b106fb1c.css",
-    "static/js/main.b781df30.js"
+    "static/js/main.80373f68.js"
   ]
 }
