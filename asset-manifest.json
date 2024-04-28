@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anthony-battinelli/static/css/main.b106fb1c.css",
-    "main.js": "/anthony-battinelli/static/js/main.dc509315.js",
+    "main.js": "/anthony-battinelli/static/js/main.9849df45.js",
     "static/media/plant-petaler.png": "/anthony-battinelli/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/anthony-battinelli/static/media/Screenshot.6a1729475f583438f337.png",
     "static/media/Screenshot 2023-02-18 at 7.29.19 PM.png": "/anthony-battinelli/static/media/Screenshot 2023-02-18 at 7.29.19 PM.3ba9e7b258adfb5ce3c9.png",
@@ -19,16 +19,15 @@
     "static/media/MongoDB_SpringGreen.png": "/anthony-battinelli/static/media/MongoDB_SpringGreen.cc5ffcde14974bdab763.png",
     "static/media/PixelNES.otf": "/anthony-battinelli/static/media/PixelNES.40064b60bb79b4ffa4a6.otf",
     "static/media/4375017_js_logo_node_icon.png": "/anthony-battinelli/static/media/4375017_js_logo_node_icon.71da8e5dd61c2ff164f8.png",
-    "static/media/spotify_iconBlack.png": "/anthony-battinelli/static/media/spotify_iconBlack.088c5c689d8626610cb2.png",
     "static/media/sql-logo.png": "/anthony-battinelli/static/media/sql-logo.343aca4ba0de41a4e05a.png",
     "static/media/javascript-logo.webp": "/anthony-battinelli/static/media/javascript-logo.1b1fd6c07c77495c8db7.webp",
     "static/media/handlebars-js.webp": "/anthony-battinelli/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/anthony-battinelli/index.html",
     "main.b106fb1c.css.map": "/anthony-battinelli/static/css/main.b106fb1c.css.map",
-    "main.dc509315.js.map": "/anthony-battinelli/static/js/main.dc509315.js.map"
+    "main.9849df45.js.map": "/anthony-battinelli/static/js/main.9849df45.js.map"
   },
   "entrypoints": [
     "static/css/main.b106fb1c.css",
-    "static/js/main.dc509315.js"
+    "static/js/main.9849df45.js"
   ]
 }
