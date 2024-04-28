@@ -4,7 +4,6 @@ import '../styles/Footer.css';
 
 import gitHub from '../images/logos/github_icon.png';
 import linkedIn from '../images/logos/linkedinBlack.png';
-import spotify from '../images/logos/spotify_iconBlack.png';
 
 export default function Footer() {
   const [animation1, setAnimation1] = useState('');
