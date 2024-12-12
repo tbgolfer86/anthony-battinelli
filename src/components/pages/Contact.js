@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className='animate__animated animate__fadeInDown'>
       <h2>Contact Me</h2>
-      <div className="">
+      <div className="form-container">
         {/* <form className='form' id="contactform" action="https://formsubmit.io/send/4d383f56-1fd7-48f9-b15e-b86eaa5a8628" method="POST">
           <div className="form-group">
             <label>Your Name:</label>
@@ -24,7 +24,7 @@ export default function Contact() {
 
           <input value="Submit" type="submit" className="form-submit-btn"></input> 
         </form> */}
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0vSQtyNcrFM7mYDU9W8pWHCNRPzmHAOYVrw-ynwaTaIrzDA/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>      </div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0vSQtyNcrFM7mYDU9W8pWHCNRPzmHAOYVrw-ynwaTaIrzDA/viewform?embedded=true" width="" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>      </div>
     </div>
   );
 };

@@ -33,7 +33,7 @@ export default function About() {
       <div className='about-section animate__animated animate__fadeInRight'>
         <p> 
           &lt;p&gt; <br></br>
-          Passionate about sports, music, and modern culture, I stay up-to-date with the latest trends and developments. With coding experience and a love for technology, I enjoy problem-solving and exploring innovative solutions. I value a diverse team environment while utilizing a combination of strong communication, collaboration, and organizational skills. <br></br> 
+          Results-driven professional with extensive experience in AI-related cybersecurity and compliance for medium to large organizations. Skilled in website and CRM management, content creation, and application documentation, with a strong background in delivering client-facing demonstrations and ensuring team collaboration. Adept in Microsoft 365, HubSpot, and marketing platforms, with a proven ability to enhance user engagement and maintain online brand presence. <br></br> 
           &lt;/p&gt;
         </p>
         <div className="icons">
