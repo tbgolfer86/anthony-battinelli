@@ -24,7 +24,7 @@ export default function Contact() {
 
           <input value="Submit" type="submit" className="form-submit-btn"></input> 
         </form> */}
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0vSQtyNcrFM7mYDU9W8pWHCNRPzmHAOYVrw-ynwaTaIrzDA/viewform?embedded=true" width="" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>      </div>
+        <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAY6RHYZUQk1GUFNIRTY2M1VCMVVHUTdCVlFUS1FRMC4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>      </div>
     </div>
   );
 };
