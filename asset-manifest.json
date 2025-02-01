@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anthony-battinelli/static/css/main.901d190f.css",
-    "main.js": "/anthony-battinelli/static/js/main.cdce8fef.js",
+    "main.js": "/anthony-battinelli/static/js/main.d85f3258.js",
     "static/media/plant-petaler.png": "/anthony-battinelli/static/media/plant-petaler.8cc5a211e54b6ec69bed.png",
     "static/media/Screenshot.png": "/anthony-battinelli/static/media/Screenshot.6a1729475f583438f337.png",
     "static/media/Screenshot 2023-02-18 at 7.29.19 PM.png": "/anthony-battinelli/static/media/Screenshot 2023-02-18 at 7.29.19 PM.3ba9e7b258adfb5ce3c9.png",
@@ -10,10 +10,12 @@
     "static/media/Screenshot 2023-02-12 at 10.06.05 PM.png": "/anthony-battinelli/static/media/Screenshot 2023-02-12 at 10.06.05 PM.326e5ba5a53f6be78b00.png",
     "static/media/Screenshot 2023-03-29 at 3.18.18 PM.png": "/anthony-battinelli/static/media/Screenshot 2023-03-29 at 3.18.18 PM.0740dc38fbbbe88b6fb6.png",
     "static/media/University of Connecticut favicon.png": "/anthony-battinelli/static/media/University of Connecticut favicon.06b456e6a87589387080.png",
+    "static/media/HubSpot_Logo.png": "/anthony-battinelli/static/media/HubSpot_Logo.b6eccef17161c33173cd.png",
     "static/media/react-logo.png": "/anthony-battinelli/static/media/react-logo.80045de70681e3171446.png",
     "static/media/css-logo.webp": "/anthony-battinelli/static/media/css-logo.8a9cb64261d07da57f4f.webp",
     "static/media/html-logo.webp": "/anthony-battinelli/static/media/html-logo.9ba5683e5bf3666e5666.webp",
     "static/media/react-logo1.png": "/anthony-battinelli/static/media/react-logo1.5f0a22463a1c166f8f76.png",
+    "static/media/Microsoft_365_logo.png": "/anthony-battinelli/static/media/Microsoft_365_logo.27f2f35014e365da0134.png",
     "static/media/Node.js_logo.png": "/anthony-battinelli/static/media/Node.js_logo.c6649cb118c1ede849ad.png",
     "static/media/MongoDB_SlateBlue.png": "/anthony-battinelli/static/media/MongoDB_SlateBlue.317cf409a73f6a6febb6.png",
     "static/media/MongoDB_SpringGreen.png": "/anthony-battinelli/static/media/MongoDB_SpringGreen.cc5ffcde14974bdab763.png",
@@ -24,10 +26,10 @@
     "static/media/handlebars-js.webp": "/anthony-battinelli/static/media/handlebars-js.060784b11a077a130fb3.webp",
     "index.html": "/anthony-battinelli/index.html",
     "main.901d190f.css.map": "/anthony-battinelli/static/css/main.901d190f.css.map",
-    "main.cdce8fef.js.map": "/anthony-battinelli/static/js/main.cdce8fef.js.map"
+    "main.d85f3258.js.map": "/anthony-battinelli/static/js/main.d85f3258.js.map"
   },
   "entrypoints": [
     "static/css/main.901d190f.css",
-    "static/js/main.cdce8fef.js"
+    "static/js/main.d85f3258.js"
   ]
 }
