@@ -13,6 +13,9 @@ import sqlLogo from '../../images/logos/sql-logo.png';
 import reactLogo from '../../images/logos/react-logo1.png';
 import mongoDbLogo from '../../images/logos/MongoDB_SlateBlue.png';
 import uconn from '../../images/logos/University of Connecticut favicon.png'
+import hubspotLogo from '../../images/logos/HubSpot_Logo.png';
+import apolloLogo from '../../images/logos/Apollo_Logo.png';
+import microsoft365Logo from '../../images/logos/Microsoft_365_logo.png'
 
 export default function About() {
   const [animation1, setAnimation1] = useState('');
@@ -41,12 +44,10 @@ export default function About() {
           <img className={animation2} onMouseEnter={() => setAnimation2('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation2('')} src={cssLogo} alt="CSS logo"/>
           <img className={animation3} onMouseEnter={() => setAnimation3('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation3('')} src={javascriptLogo} alt="Javascript logo"/>
           <img className={animation4} onMouseEnter={() => setAnimation4('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation4('')} src={nodejsLogo} alt="Node.js logo"/>
-          <img className={animation5} onMouseEnter={() => setAnimation5('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation5('')} src={npmLogo} alt="Npm logo"/>
-          <img className={animation6} onMouseEnter={() => setAnimation6('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation6('')} src={expressLogo} alt="Express.js logo"/>
-          <img className={animation9} onMouseEnter={() => setAnimation9('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation9('')} src={sqlLogo} alt="SQL logo"/>
-          <img className={animation10} onMouseEnter={() => setAnimation10('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation10('')} src={mongoDbLogo} alt="MongoDB logo"/>
-          <img className={animation7} onMouseEnter={() => setAnimation7('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation7('')} src={handlebarsLogo} alt="Handlebars logo"/>
           <img className={animation8} onMouseEnter={() => setAnimation8('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation8('')} src={reactLogo} alt="React logo"/>
+          <img className={animation6} onMouseEnter={() => setAnimation6('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation6('')} src={microsoft365Logo} alt="Microsoft365 logo"/>
+          <img className={animation9} onMouseEnter={() => setAnimation9('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation9('')} src={hubspotLogo} alt="HubSpot logo"/>
+          <img className={animation10} onMouseEnter={() => setAnimation10('animate__animated animate__pulse animate__repeat-1')} onMouseLeave={() => setAnimation10('')} src={apolloLogo} alt="Apollo logo"/>
         </div> 
       </div>       
     </div>
