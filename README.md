@@ -45,5 +45,5 @@
 ---
 
   ## Questions
-  If you have any questions about the project, open an issue at [tbgolfer86](https://www.github.com/tbgolfer86) or send an email to tbj86@outlook.com.
+  If you have any questions about the project, open an issue at [tbgolfer86](https://www.github.com/tbgolfer86) or send an email to tbattinellijr@gmail.com.
 
